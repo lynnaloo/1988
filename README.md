@@ -20,7 +20,9 @@ Notable Events:
 * Table Tennis (Ping Pong) became an Olympic Sport
 * CDs out-sold vinyl records for the first time
 
-A Serverless Framework Example with a simple HTTP service deployed on four different cloud platforms - John (Amazon Web Services), Paul (IBM Cloud), George (Google Cloud Platform, and Ringo (Microsoft Azure)
+## What this is
+
+A Serverless Framework Example with a simple HTTP service deployed on three different cloud platforms - Microsoft Azure, Amazon Web Services, and Google Cloud Platform.
 
 ## Setup
 

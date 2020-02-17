@@ -1,0 +1,21 @@
+{
+  "name": "microsoft",
+  "version": "1.0.0",
+  "description": "Microsoft Azure Functions Service",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha -c",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "serverless",
+    "azurefunctions"
+  ],
+  "dependencies": {
+    "serverless-azure-functions": "*"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "mocha": "^6.2.0"
+  }
+}

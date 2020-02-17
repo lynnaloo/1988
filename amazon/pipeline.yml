@@ -1,0 +1,40 @@
+trigger:
+- master
+
+pr:
+- master
+- releases/*
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+
+- script: |
+    npm install -g serverless
+    npm install
+  displayName: 'Install Serverless Framework (Amazon)'
+
+- script: |
+    npm run lint
+  displayName: 'Run lint on all code (Amazon)'
+
+- script: |
+    npm install
+    npm test
+  workingDirectory: $(Build.SourcesDirectory)/amazon
+  displayName: 'Install local libraries and test code (Amazon)'
+
+- script: |
+    sls deploy --stage dev --region "us-east-1"
+  workingDirectory: $(Build.SourcesDirectory)/amazon
+  env:
+    # AWS Credentials
+    # Values stored as secret variables
+    AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
+    AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
+  #condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+  displayName: 'Deploy AWS Lambda (Amazon)'

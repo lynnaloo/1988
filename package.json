@@ -1,0 +1,15 @@
+{
+  "name": "1988",
+  "version": "1.0.0",
+  "description": "The best of 1988 - All Clouds",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Linda Nichols <lynnaloo@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-shopify": "^30.0.1"
+  }
+}

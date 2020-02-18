@@ -19,6 +19,7 @@ Notable Events:
 * 13% of Americans surveyed thought the Moon was made of cheese
 * Table Tennis (Ping Pong) became an Olympic Sport
 * CDs out-sold vinyl records for the first time
+* Microsoft releases [SQL Server](https://channel9.msdn.com/Series/History/The-History-of-Microsoft-1988)
 
 ## What this is
 

@@ -5,12 +5,12 @@ provider:
   stage: dev
   runtime: nodejs8
   region: us-central1
-  project:  # your project on google - create this first
+  project:  best-of-1988 # your project on google - create this first
   # The GCF credentials can be a little tricky to set up. Luckily we've documented this for you here:
-  # https://serverless.com/framework/docs/providers/google/guide/credentials/
+  #
   #
   # the path to the credentials file needs to be absolute
-  credentials: ~/.gcloud/beatlemania.json
+  credentials: ~/.gcloud/best-of-1988.json
 
 plugins:
   - serverless-google-cloudfunctions

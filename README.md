@@ -49,7 +49,7 @@ Choose a cloud platform, install libraries, deploy, and run!
 $ cd microsoft
 $ npm install
 $ serverless deploy
-$ serverless invoke -f sing
+$ serverless invoke -f best
 ```
 
 Since these are HTTP services, you can execute them like a REST API

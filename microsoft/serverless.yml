@@ -1,11 +1,9 @@
-service: 1988
+service: best-of-1988
 
 provider:
   name: azure
   region: East US
   runtime: nodejs10.x
-  # prefix: "sample"  # prefix of generated resource name
-  # subscriptionId: 53cd0336-4079-4703-b33b-28e6a6bd452a
   stage: dev
   # type: premium  # premium azure functions
 

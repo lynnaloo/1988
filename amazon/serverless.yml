@@ -5,6 +5,7 @@ provider:
   name: aws
   runtime: nodejs10.x
   stage: dev
+  stackName: best-of-1988
 
 # you can overwrite defaults here
 region: us-east-1

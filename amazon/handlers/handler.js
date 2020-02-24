@@ -2,7 +2,7 @@
 
 module.exports.best = async (event, context) => {
   const bestlink = 'https://gph.is/16bmBcs';
-  const html = `<html><body>${bestlink}</body></html>`;
+  const html = `<html><body><img src=${bestlink}></body></html>`;
 
   return {
     statusCode: 200,

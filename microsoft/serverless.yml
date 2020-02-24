@@ -5,6 +5,7 @@ provider:
   region: East US
   runtime: nodejs10.x
   stage: dev
+  prefix: "demo"
   # type: premium  # premium azure functions
 
   #environment: # these will be created as application settings

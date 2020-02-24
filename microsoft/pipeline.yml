@@ -14,7 +14,8 @@ steps:
     versionSpec: '10.x'
 
 - script: |
-    npm install -g serverless
+    # keep serverless in sync with the plugin
+    npm install -g serverless@1.57.0
     npm install
   displayName: 'Install Serverless Framework (Microsoft)'
 

@@ -1,7 +1,6 @@
 /* eslint-disable require-await */
 
 module.exports.best = async (event, context) => {
-  const bestlink = 'https://gph.is/16bmBcs';
   const html = `<html><body> +
     <iframe src="https://giphy.com/embed/FbPsiH5HTH1Di" width="480" height="445" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> +
     </body></html>`;

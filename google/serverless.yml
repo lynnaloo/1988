@@ -6,7 +6,6 @@ provider:
   runtime: nodejs8
   region: us-central1
   project:  best-of-1988 # your project on google - create this first
-  # The GCF credentials can be a little tricky to set up. Luckily we've documented this for you here:
   #
   #
   # the path to the credentials file needs to be absolute

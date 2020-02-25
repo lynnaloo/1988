@@ -12,7 +12,7 @@
     "azurefunctions"
   ],
   "dependencies": {
-    "serverless-azure-functions": "git+https://github.com/lynnaloo/serverless-azure-functions.git#master"
+    "serverless-azure-functions": "git+https://git@github.com/lynnaloo/serverless-azure-functions.git"
   },
   "devDependencies": {
     "assert": "^2.0.0",

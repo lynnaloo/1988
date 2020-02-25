@@ -47,7 +47,7 @@ $ cd 1988
 Choose a cloud platform, install libraries, deploy, and run!
 
 ```
-$ cd microsoft
+$ cd [cloud company name]
 $ npm install
 $ serverless deploy
 $ serverless invoke -f best

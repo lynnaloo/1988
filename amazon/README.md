@@ -1,6 +1,6 @@
 # Serverless Example - Amazon Web Services Lambda - Node.js
 
-A Serverless Framework Example for Amazon Web Services Lambda
+A Serverless Framework Example for AWS Lambda
 
 ## Setup
 
